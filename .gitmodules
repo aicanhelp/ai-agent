@@ -1,3 +1,15 @@
 [submodule "mcp-server-projects/github-mcp-server"]
 	path = mcp-server-projects/github-mcp-server
 	url = https://github.com/github/github-mcp-server.git
+[submodule "spring-ai-projects/spring-ai"]
+	path = spring-ai-projects/spring-ai
+	url = https://github.com/spring-projects/spring-ai.git
+[submodule "spring-ai-projects/spring-ai-examples"]
+	path = spring-ai-projects/spring-ai-examples
+	url = https://github.com/spring-projects/spring-ai-examples.git
+[submodule "spring-ai-projects/spring-ai-alibaba"]
+	path = spring-ai-projects/spring-ai-alibaba
+	url = https://github.com/alibaba/spring-ai-alibaba.git
+[submodule "spring-ai-projects/spring-ai-alibaba-examples"]
+	path = spring-ai-projects/spring-ai-alibaba-examples
+	url = https://github.com/springaialibaba/spring-ai-alibaba-examples.git
