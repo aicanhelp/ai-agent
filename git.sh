@@ -34,7 +34,7 @@ function do_add() {
 
    MOD_NAME=${project_dir}/${name}
    mkdir -p ${project_dir}
-   git submodule add ${repo} ${type}-projects/$name
+   git submodule add --depth 1 ${repo} ${type}-projects/$name
 }
 
 function do_list() {
@@ -71,7 +71,6 @@ function do_update(){
       fi
       cd ${cur_dir}
   done
-
 }
 
 
